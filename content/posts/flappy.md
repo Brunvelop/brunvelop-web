@@ -1,6 +1,6 @@
 ---
 title: IA + Flappy Bird 3D
-date: 2020-01-28T22:46:04+01:00
+#date: 2021-01-28T22:46:04+01:00
 #lastmod: 2021-01-28T22:46:04+01:00
 #author: Author Name
 # avatar: /img/author.jpg
@@ -21,4 +21,3 @@ showdate: false
 
 <!--more-->
 
-The remaining content of your post.
