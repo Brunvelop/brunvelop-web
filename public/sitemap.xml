@@ -18,17 +18,16 @@
   </url>
   
   <url>
-    <loc>http://example.org/posts/flappy/</loc>
-    <lastmod>2020-01-28T22:46:04+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://example.org/posts/stylegan2/</loc>
     <lastmod>2019-01-28T22:46:04+01:00</lastmod>
   </url>
   
   <url>
     <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/flappy/</loc>
   </url>
   
   <url>
