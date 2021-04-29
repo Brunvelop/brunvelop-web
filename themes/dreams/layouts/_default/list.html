@@ -1,0 +1,30 @@
+{{ define "title" }}
+{{- if or (eq .Data.Singular "tag") (eq .Data.Singular "category") -}}
+  {{ .Data.Term }}
+{{- end -}}
+{{ end }}
+
+{{ define "main"}}
+<div class="ui centered relaxed grid dream-grid">
+  <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+    {{ partial "header.html" . }}
+  </div>
+
+  {{ $paginator := .Paginate .Pages }}
+  {{ range $paginator.Pages }}
+    <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+      {{ .Render "summary" }}
+    </div>
+  {{ end }}
+
+  <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+    {{ partial "paginator.html" (dict "paginator" $paginator "Site" .Site) }}
+  </div>
+</div>
+{{ end }}
+
+{{ define "js" }}
+<script src="{{ "/js/imagesloaded.pkgd.min.js" | relURL }}"></script>
+<script src="{{ "/js/masonry.pkgd.min.js" | relURL }}"></script>
+<script src="{{ "/js/grid.js" | relURL }}"></script>
+{{ end }}

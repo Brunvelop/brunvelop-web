@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "es"
 defaultContentLanguage = "es"
 title = "Brunvelop"
-theme = "dream"
+theme = "dreams"
 
 [params]
   #background = "#ccc"
