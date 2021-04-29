@@ -1,4 +1,6 @@
 hugo -D
+git add .
+git commit -m 'deploy'
 git checkout deploy
 git checkout main -- public
 xcopy /s public . /Y
