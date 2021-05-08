@@ -38,15 +38,16 @@ theme = "dreams"
 
   email = "brunvelop@gmail.com"
   twitter = "brunvelop"
-  #facebook = "g1eny0ung"
+  #facebook = ""
   instagram = "brunvelop"
   # mastodon = ""
-  #linkedin = "钺杨g1eny0ung"
+  #linkedin = ""
   github = "brunvelop"
-  #stackoverflow = "5676489/g1eny0ung"
+  #stackoverflow = ""
   tiktok = "brunvelop"
   googleplay = "brunvelop"
   youtube = "brunvelop"
+  rarible = "brunvelop"
 
   #siteStartYear = 2020
 
@@ -74,4 +75,4 @@ theme = "dreams"
   copyMark = false
   categorias = false
 
-  googleAnalytics = "https://www.googletagmanager.com/gtag/js?id=UA-181745464-1"
+  googleAnalytics = "https://www.googletagmanager.com/gtag/js?id=G-HNQHKCQYXF"

@@ -1,10 +1,10 @@
 ---
-title: ¡Compra criptomonedas!
-cover: /img/moon.gif
+title: Generador de Waifus
+cover: /img/waifu.gif
 draft: true
-link: https://bit.ly/3t4QwFm
+link: https://bit.ly/3swtya6
 showdate: false
-date: 2021-02-28T22:46:04+01:00
+date: 2
 ---
 
-Aquí compro mis cryptos
+¡Genera Waifus con un click!
