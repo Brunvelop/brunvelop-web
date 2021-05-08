@@ -12,6 +12,7 @@ def delete_files():
 
 if __name__ == "__main__":
     os.system("hugo -D")
+    time.sleep(2)
     os.system("git add .")
     os.system("git commit -m 'deploy'")
     os.system("git checkout deploy")
