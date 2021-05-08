@@ -14,7 +14,7 @@ if __name__ == "__main__":
     os.system("hugo -D")
     os.system("git add .")
     os.system("git commit -m 'deploy'")
-    os.system("git checkout test")
+    os.system("git checkout deploy")
 
     delete_files()
 

@@ -7,4 +7,4 @@ showdate: false
 date: 1
 ---
 
-Probando la mejor IA para generar imágenes
+Probando la mejor IA para generar imágenes!
