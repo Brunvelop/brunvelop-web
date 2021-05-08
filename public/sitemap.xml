@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>1970-01-01T01:00:04+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>1970-01-01T01:00:04+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/crypto_add/</loc>
+    <lastmod>1970-01-01T01:00:04+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/waifu/</loc>
+    <lastmod>1970-01-01T01:00:02+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/flappy/</loc>
+    <lastmod>1970-01-01T01:00:02+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/stylegan2/</loc>
+    <lastmod>1970-01-01T01:00:01+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+</urlset>

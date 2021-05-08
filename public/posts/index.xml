@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Brunvelop</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Brunvelop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 01 Jan 1970 01:00:04 +0100</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¡Compra criptomonedas!</title>
+      <link>http://example.org/posts/crypto_add/</link>
+      <pubDate>Thu, 01 Jan 1970 01:00:04 +0100</pubDate>
+      
+      <guid>http://example.org/posts/crypto_add/</guid>
+      <description>Aquí compro mis cryptos</description>
+    </item>
+    
+    <item>
+      <title>Generador de Waifus</title>
+      <link>http://example.org/posts/waifu/</link>
+      <pubDate>Thu, 01 Jan 1970 01:00:02 +0100</pubDate>
+      
+      <guid>http://example.org/posts/waifu/</guid>
+      <description>¡Genera Waifus con un click!</description>
+    </item>
+    
+    <item>
+      <title>IA &#43; Flappy Bird 3D</title>
+      <link>http://example.org/posts/flappy/</link>
+      <pubDate>Thu, 01 Jan 1970 01:00:02 +0100</pubDate>
+      
+      <guid>http://example.org/posts/flappy/</guid>
+      <description>&lt;p&gt;¡He subido mi primer juego al google play!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Experimentos con Stylegan 2</title>
+      <link>http://example.org/posts/stylegan2/</link>
+      <pubDate>Thu, 01 Jan 1970 01:00:01 +0100</pubDate>
+      
+      <guid>http://example.org/posts/stylegan2/</guid>
+      <description>Probando la mejor IA para generar imágenes</description>
+    </item>
+    
+  </channel>
+</rss>
