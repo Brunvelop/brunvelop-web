@@ -85,17 +85,15 @@ body .os-host>.os-padding>.os-viewport>.os-content {
 
 .ui.menu.dream-menu.dream-socials {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly
-
+    flex-wrap: wrap
 }
 
 .ui.menu.dream-menu.dream-socials .item:first-child {
-    padding-left: 0rem
+    padding-left: 0.5rem
 }
 
 .ui.menu.dream-menu .item {
-    padding: 0.1rem
+    padding: 0.5rem
 }
 
 .ui.menu.dream-menu .item:first-child {
