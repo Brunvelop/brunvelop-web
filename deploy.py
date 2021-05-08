@@ -1,4 +1,4 @@
-import os, shutil
+import os, shutil, time
 
 def delete_files():
     for filename in os.listdir():
@@ -20,10 +20,12 @@ if __name__ == "__main__":
 
     os.system("git checkout main -- public")
     os.system("xcopy /s public . /Y")
+    time.sleep(2)
 
     shutil.rmtree('public')
+    time.sleep(2)
 
     os.system("git add .")
     os.system("git commit -m 'deploy-test'")
-    os.system("git push")
     os.system("git checkout main")
+    os.system("git push")
