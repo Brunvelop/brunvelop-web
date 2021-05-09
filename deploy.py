@@ -28,5 +28,5 @@ if __name__ == "__main__":
 
     os.system("git add .")
     os.system("git commit -m 'deploy-test'")
-    os.system("git checkout main")
     os.system("git push")
+    os.system("git checkout main")
