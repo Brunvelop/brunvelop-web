@@ -30,3 +30,5 @@ if __name__ == "__main__":
     os.system("git commit -m 'deploy-test'")
     os.system("git push origin deploy")
     os.system("git checkout main")
+    time.sleep(2)
+    shutil.rmtree('public')

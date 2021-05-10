@@ -2,7 +2,7 @@
   {{ if .Site.Params.email }}
     <div class="item">
       <a href="mailto:{{ .Site.Params.email }}">
-        <i class="{{ .IconSize }} mail icon" title="Email"></i>
+        <i class="{{ .IconSize }} mail icon" title="Email" style="width: 0; height: 0;"></i>
       </a>
     </div>
   {{ end }}
@@ -10,7 +10,7 @@
   {{ if .Site.Params.github }}
     <div class="item">
       <a href="https://github.com/{{ .Site.Params.github }}" target="_blank">
-        <i class="{{ .IconSize }} github icon" title="GitHub"></i>
+        <i class="{{ .IconSize }} github icon" title="GitHub" style="width: 0; height: 0;"></i>
       </a>
     </div>
   {{ end }}
@@ -18,7 +18,7 @@
   {{ if .Site.Params.googleplay }}
   <div class="item">
     <a href="https://play.google.com/store/apps/developer?id=Brunvelop&hl=en&gl=US" target="_blank">
-      <i class="{{ .IconSize }} google play icon" title="Google Play"></i>
+      <i class="{{ .IconSize }} google play icon" title="Google Play" style="width: 0; height: 0;"></i>
     </a>
   </div>
   {{ end }}
@@ -26,7 +26,7 @@
   {{ if .Site.Params.youtube}}
   <div class="item">
     <a href="https://www.youtube.com/{{ .Site.Params.youtube }}" target="_blank">
-      <i class="{{ .IconSize }} youtube icon" title="youtube"></i>
+      <i class="{{ .IconSize }} youtube icon" title="youtube" style="width: 0; height: 0;"></i>
     </a>
   </div>
   {{ end }}
@@ -42,7 +42,7 @@
   </svg>
 
   <div class="item">
-    <a href="https://www.tiktok.com/@brunvelop" target="_blank">
+    <a href="https://www.tiktok.com/@brunvelop" target="_blank" style="width: 0; height: 10;">
       <svg class="svg-tiktok" style="width: 1em; height:1em; margin-top: 0.1em;">
         <use xlink:href="#icon-tiktok"></use>
       </svg>
@@ -54,7 +54,7 @@
   {{ if .Site.Params.twitter }}
   <div class="item">
     <a href="https://twitter.com/{{ .Site.Params.twitter }}" target="_blank">
-      <i class="{{ .IconSize }} twitter icon" title="Twitter"></i>
+      <i class="{{ .IconSize }} twitter icon" title="Twitter" style="width: 0; height: 0;"></i>
     </a>
   </div>
   {{ end }}
@@ -62,14 +62,14 @@
   {{ if .Site.Params.instagram }}
     <div class="item">
       <a href="https://instagram.com/{{ .Site.Params.instagram }}" target="_blank">
-        <i class="{{ .IconSize }} instagram icon" title="Instagram"></i>
+        <i class="{{ .IconSize }} instagram icon" title="Instagram" style="width: 0; height: 0;"></i>
       </a>
     </div>
   {{ end }}
 
   {{ if .Site.Params.rarible }}
 
-  <svg aria-hidden="true" style="width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <svg aria-hidden="true" style="width: 0; height: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
       <symbol id="icon-rarible" viewBox="5 3 30 30">
         <title>rarible</title>
@@ -79,7 +79,7 @@
   </svg>
   
   <div class="item">
-    <a href="https://rarible.com/brunvelop" target="_blank">
+    <a href="https://rarible.com/brunvelop" target="_blank" style="width: 0; height: 10; padding-left: 0;">
       <svg class="svg-rarible" style="width: 1.4em; height:1.4em;">
         <use xlink:href="#icon-rarible"></use>
       </svg>
